@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Repository Index</title>
+  <title>仓库文件索引 · xinzi1229/home</title>
   <style>
     :root {
       --bg: #f8fafc;
@@ -67,14 +67,18 @@
 <body>
   <div class="wrap">
     <h1>仓库文件索引</h1>
-    <div class="subtitle">Repository: <strong>xinzi1229/home</strong></div>
+    <div class="subtitle">Repository: <strong>xinzi1229/home</strong> （分支：<strong>main</strong>）</div>
+
+    <p>已将链接改为相对路径，方便在 GitHub Pages（或通过静态站点）中直接跳转：</p>
 
     <ul>
-      <li><a href="https://github.com/xinzi1229/home/blob/main/index.html">index.html</a></li>
-      <li><a href="https://github.com/xinzi1229/home/blob/main/Tihu.html">Tihu.html</a></li>
-      <li><a href="https://github.com/xinzi1229/home/blob/main/README.md">README.md</a></li>
-      <li><a href="https://github.com/xinzi1229/home/blob/main/.github/workflows/jekyll-gh-pages.yml">.github/workflows/jekyll-gh-pages.yml</a></li>
+      <li><a href="./index.html">index.html</a></li>
+      <li><a href="./Tihu.html">Tihu.html</a></li>
+      <li><a href="./README.md">README.md</a> (相对链接，若通过 GitHub Pages 服务，README 可能以 Markdown 原文显示或由 Jekyll 转换)</li>
+      <li><a href="./.github/workflows/jekyll-gh-pages.yml">.github/workflows/jekyll-gh-pages.yml</a> (隐藏目录的相对路径，Web 服务器可能不允许直接访问)</li>
     </ul>
+
+    <p>如果你想要我把列表自动扩展为仓库里所有 HTML 文件（或整个目录树），我可以继续把它做成自动生成版本并提交。</p>
   </div>
 </body>
 </html>
